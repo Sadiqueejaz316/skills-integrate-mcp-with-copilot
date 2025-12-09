@@ -1,3 +1,22 @@
+/* Activity controls styles */
+#activity-controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+#activity-controls input[type="text"],
+#activity-controls select {
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#activity-controls select {
+  min-width: 140px;
+}
 * {
   box-sizing: border-box;
   margin: 0;
